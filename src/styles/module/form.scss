@@ -1,0 +1,64 @@
+@import '../utils/main.utils.scss';
+
+.i-group,
+.s-group {
+    .form-label {
+        margin-bottom: 1rem;
+        @include font(1.6rem, 400, normal, $green);
+    }
+    .form-control {
+        &::placeholder {
+            @include font(1.2rem, 300, normal, #0000007f);
+        }
+    }
+    .form-select {
+        cursor: pointer;
+    }
+    .form-select, .form-control {
+        padding: 1.5rem 2rem;
+        border-radius: 15px;
+        background-color: rgba(245, 245, 245, 0.30);
+        border: none;
+        transition: background-color .3s;
+        @include font(1.2rem, 300, normal, #0000007f);
+        &:focus {
+            box-shadow: none;
+            background-color: rgba(245, 245, 245, 0.60);
+        }
+        &:hover {
+            background-color: rgba(245, 245, 245, 0.60);
+        }
+    }
+}
+
+.i-amount {
+    .form-label {
+        animation: slide-in-bottom 0.5s .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+}
+
+.custom-mb-40 {
+    margin-bottom: 4rem;
+}
+
+.btn-convert {
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    background-color: $green;
+    border: none;
+    transition: background-color .3s;
+    @include font(1.2rem, 400, normal, $white);
+    &:hover {
+        background-color: #2a5d57;
+        color: $white;
+    }
+    &:focus {
+        background-color: #2a5d57;
+        box-shadow: none;
+    }
+    &:active {
+        background-color: #2a5d57;
+    }
+}
+

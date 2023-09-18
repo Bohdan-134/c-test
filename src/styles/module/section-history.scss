@@ -1,0 +1,9 @@
+@import '../utils/main.utils.scss';
+
+.container.history-title-wrapper {
+    margin-bottom: 6rem;
+}
+
+.history-title {
+    @include font(3rem, 400, normal, $white);
+}

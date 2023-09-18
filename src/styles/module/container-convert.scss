@@ -1,0 +1,10 @@
+@import '../utils/main.utils.scss';
+
+.container.container-convert {
+    padding: 5rem;
+    margin: 0 auto 10rem;
+    border-radius: 2.5rem;
+    background: rgb(255 255 255 / 10%);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    animation: slide-in-bottom 0.5s .4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

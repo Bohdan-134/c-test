@@ -1,0 +1,14 @@
+@import './utils/main.utils.scss';
+@import './module/module.main.scss';
+.wrapper {
+    padding: 7rem 10rem;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(270deg, #ED6A5E 0%, #4CE0B3 100%);
+}
+
+.container {
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
